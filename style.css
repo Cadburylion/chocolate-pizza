@@ -31,6 +31,10 @@ p {
   padding-top: 15px;
 }
 
+#last-pic {
+  margin-left: 10px;
+}
+
 #logo-icon {
   height: 60px;
   width: 60px;
