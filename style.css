@@ -1,5 +1,7 @@
 * {
   width: 100%;
+  padding: 0;
+  margin: 0;
   border-style: border-box;
 }
 
@@ -8,17 +10,48 @@ body {
   margin: 0 auto;
 }
 
+header {
+  height: 60px;
+}
+
 p {
-  text-indent: 20px;
+  /*text-indent: 20px;*/
 }
 
 .inline-block {
   display: inline-block;
   width: auto;
+  /*text-indent: none;*/
+}
+
+.sm-pic {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding-top: 15px;
 }
 
 #logo-icon {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   display: inline-block;
+}
+
+#delicious {
+  font-size: 2em;
+}
+
+#best-food-blog {
+  font-size: .5em;
+  width: auto;
+}
+
+#social-media-pics {
+  width: auto;
+  display: inline-block;
+  float: right;
+}
+
+#article p {
+  text-indent: 20px;
 }
