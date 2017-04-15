@@ -41,7 +41,7 @@ hr.style11 {
 	height: 6px;
 	/*background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;*/
     /*border: 0;*/
-  background: url(images/backg.jpg) repeat-x 0 0;
+  background: url(images/backdivider.jpg) repeat-x 0 0;
     border: 0;
   margin-top: 35px;
   margin-bottom: 65px;
@@ -121,3 +121,20 @@ hr.style11 {
   margin-top: 35px;
   background-image: url("images/list-bg.png");
 }
+
+#left-list {
+  /*margin-top: 80px;*/
+  padding-top: 40px;
+  margin-left: 80px;
+  font-size: 1.7em;
+  font-family: comic;
+  list-style-type: square;
+}
+
+/*input[type='checkbox'] {
+  -webkit-appearance:none;
+  width:20px;
+  height:20px;
+  background:transparent;
+  border:1px solid black;
+}*/
