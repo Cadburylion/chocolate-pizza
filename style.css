@@ -1,4 +1,140 @@
-/** {
+* {
   width: 100%;
+  padding: 0;
+  margin: 0;
   border-style: border-box;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  height: 60px;
+}
+
+p {
+  /*text-indent: 20px;*/
+}
+
+.inline-block {
+  display: inline-block;
+  width: auto;
+  /*text-indent: none;*/
+}
+
+.p-indent {
+  text-indent: 20px;
+  font-size: 1.3em;
+  margin-top: 1.5em;
+}
+
+.sm-pic {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding-top: 15px;
+}
+
+hr.style11 {
+	height: 6px;
+	/*background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;*/
+    /*border: 0;*/
+  background: url(images/backdivider.jpg) repeat-x 0 0;
+    border: 0;
+  margin-top: 35px;
+  margin-bottom: 65px;
+
+}
+
+#last-pic {
+  margin-left: 10px;
+}
+
+#logo-icon {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+#delicious {
+  font-size: 2em;
+  font-family: 'Yellowtail', cursive;
+  /*line-height: 2px;*/
+}
+
+#best-food-blog {
+  font-size: .5em;
+  width: auto;
+  /*line-height: 2px;*/
+}
+
+#social-media-pics {
+  width: auto;
+  display: inline-block;
+  float: right;
+}
+
+#article-header {
+  font-size: 3em;
+  font-family: helvetica;
+  letter-spacing: -1px;
+}
+
+#article-subheader {
+  color: grey;
+  width: auto;
+  display: inline-block;
+  /*margin-top: 0;*/
+  /*text-indent: none;*/
+}
+
+#print {
+  height: 15px;
+  width: auto;
+  float: right;
+  display: inline-block;
+}
+
+#print-icon {
+  height: 15px;
+  width: 15px;
+  /*float: right;*/
+  display: inline-block;
+}
+
+#print-text {
+  color: grey;
+}
+
+#choco-pizza-pic {
+  margin-top: 28px;
+}
+
+#article p {
+  /*font-size: 1.5em;*/
+}
+
+#recipe-list {
+  height: 300px;
+  margin-top: 35px;
+  background-image: url("images/list-bg.png");
+}
+
+#left-list {
+  /*margin-top: 80px;*/
+  padding-top: 40px;
+  margin-left: 80px;
+  font-size: 1.7em;
+  font-family: comic;
+  list-style-type: square;
+}
+
+/*input[type='checkbox'] {
+  -webkit-appearance:none;
+  width:20px;
+  height:20px;
+  background:transparent;
+  border:1px solid black;
 }*/
